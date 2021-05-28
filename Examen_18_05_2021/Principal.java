@@ -11,7 +11,7 @@ public class Principal{
 
 		pe.mensajeHola("Programa");
 
-		pe = (int val1, int val2, int val3) -> System.out.println((val1 + (val2 * val2)));
+		pe = (int val1, int val2, int val3) -> System.out.println((val1 + (val2 * val3)));
 		pe.operacionPrueba(1,PruebaExamen.operacionPrueba(1,5),PruebaExamen.operacionPrueba(1,3));
 		Principal.miMetodo(pe);
 		miMetodo((int val1, int val2, int val3) -> System.out.println(val1+(val2/val3)));
@@ -24,7 +24,7 @@ public class Principal{
 	}
 
 	private static void miMetodo(PruebaExamen objeto, int val1, int val2, int val3){
-		objeto.operacionPrueba(val1,PruebaExamen.operacionPrueba(val1, val2),PruebaExamen.operacionPrueba(val3, val3));
+		objeto.operacionPrueba(val1,PruebaExamen.operacionPrueba(val2, val2),PruebaExamen.operacionPrueba(val3, val3));
 	}
 	
 }
