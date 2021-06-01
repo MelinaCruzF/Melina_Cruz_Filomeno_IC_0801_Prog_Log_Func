@@ -9,6 +9,9 @@ public class FP_Functional_Exercises{
 			System.out.print("Exercise 1:  ");
 			printEvenNumbersInListFunctional(numbers);
 
+			System.out.print("Exercise 2:  ");
+			printCourses(courses);
+
 			System.out.print("Exercise 3:  ");
 			printCoursesSpring(courses);
 
